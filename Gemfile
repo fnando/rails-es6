@@ -6,7 +6,8 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'sass-rails', github: 'rails/sass-rails', branch: 'master'
 gem 'sprockets-rails', github: 'rails/sprockets-rails', branch: 'master'
-gem 'sprockets', github: 'rails/sprockets', branch: 'master'
+gem 'sprockets', github: 'lucasmazza/sprockets', branch: 'es6-backports'
+# gem 'sprockets', github: 'rails/sprockets', branch: 'master'
 gem 'babel-transpiler'
 
 source 'https://rails-assets.org' do
