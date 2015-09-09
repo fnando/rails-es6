@@ -1,3 +1,3 @@
 setTimeout(()=> console.log('hello!'));
 import Hello from 'application/hello';
-new Hello();
+console.log(new Hello().message);

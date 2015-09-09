@@ -123,6 +123,7 @@ GEM
       railties (= 4.2.4)
       sprockets-rails
     rails-assets-almond (0.3.1)
+    rails-assets-qunit (1.19.0)
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.7)
@@ -140,6 +141,8 @@ GEM
     sass (3.4.18)
     slop (3.6.0)
     sqlite3 (1.3.10)
+    test_squad (0.0.1)
+      rails
     thor (0.19.1)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -156,10 +159,12 @@ DEPENDENCIES
   pry-meta
   rails (= 4.2.4)
   rails-assets-almond!
+  rails-assets-qunit!
   sass-rails!
   sprockets!
   sprockets-rails!
   sqlite3
+  test_squad
   uglifier (>= 1.3.0)
 
 BUNDLED WITH

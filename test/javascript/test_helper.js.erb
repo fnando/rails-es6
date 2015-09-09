@@ -1,0 +1,12 @@
+//= require almond
+//= require application/config
+//= require ./boot
+//= require application
+//= require_self
+//= require_tree ./rails_es6
+
+require([
+  <% Dir['./test/javascript/rails_es6/**/*.es6'].each do |file| %>
+    <%= file[%r{javascript/(.*?)\.es6}, 1].inspect %>,
+  <% end %>
+]);

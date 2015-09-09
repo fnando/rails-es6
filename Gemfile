@@ -1,3 +1,4 @@
+source 'https://rails-assets.org'
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
@@ -12,6 +13,11 @@ gem 'babel-transpiler'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-almond'
+  gem 'rails-assets-qunit'
 end
 
 gem 'pry-meta'
+
+group :development, :test do
+  gem 'test_squad'
+end

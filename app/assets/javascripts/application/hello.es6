@@ -1,5 +1,5 @@
 export default class Hello {
-  construct() {
-    console.log('Hello from ES6 class');
+  get message() {
+    return 'Hello from ES6 class';
   }
 }
